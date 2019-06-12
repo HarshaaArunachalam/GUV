@@ -1,2 +1,2 @@
-name=input()
-print(name+".")
+ids=input()
+print(ids+".")
