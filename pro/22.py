@@ -1,0 +1,5 @@
+N=int(input())
+K=map(int,input().split())
+K=list(K)
+K=sorted(K)
+print(K[-1]+K[-2])
