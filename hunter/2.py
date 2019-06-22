@@ -1,0 +1,6 @@
+N=int(input())
+L=input().split()
+m=sorted(L)
+m.reverse()
+n="".join(m)
+print(n)
