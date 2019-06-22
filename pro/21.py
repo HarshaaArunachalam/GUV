@@ -1,0 +1,10 @@
+N=int(input())
+L=map(int,input().split())
+L=list(L)
+average=int(N/2)
+len1=L[:average]
+len2=L[average::]
+if((sum(len1)//len(len1))==(sum(len2)//len(len2))):
+    print("yes")
+else:
+    print("no")
