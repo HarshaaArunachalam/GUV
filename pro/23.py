@@ -1,5 +1,5 @@
 shape=input()
-if(motion.find("GLGLGL") or motion.find("GRGRGR") or motion.find("GLLG") or motion.find("GRRG")):
+if(shape.find("GLGLGL") or shape.find("GRGRGR") or shape.find("GLLG") or shape.find("GRRG")):
     print("yes")
 else:
     print("no")
