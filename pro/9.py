@@ -1,2 +1,2 @@
-uvw=int(input())
-print(uvw)
+hhh=int(input())
+print(hhh)
