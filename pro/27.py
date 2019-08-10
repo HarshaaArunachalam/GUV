@@ -1,17 +1,17 @@
-a,b=map(int,input(" ").split(" "))
-c=list(map(int,input().split()))
-d=list(map(int,input().split()))
-e=[]
-f=0
+a,k=map(int,input(" ").split(" "))
+p=list(map(int,input().split()))
+v=list(map(int,input().split()))
+t=[]
+c=0
 for i in range(a):
-    x=d[i]/c[i]
-    e.append(x)
-while b>=0 and len(e)>0:
-    mind=e.index(max(e))
-    if b>=c[mind]:
-        f=f+d[mind]
-        b=b-d[mind]
-    c.pop(mind)
-    d.pop(mind)
-    e.pop(mind)
-print(f)
+    x=v[i]/p[i]
+    t.append(x)
+while k>=0 and len(t)>0:
+    mindex=t.index(max(t))
+    if k>=p[mindex]:
+        c=c+v[mindex]
+        k=k-p[mindex]
+    p.pop(mindex)
+    v.pop(mindex)
+    t.pop(mindex)
+print(c)
