@@ -1,3 +1,3 @@
 import math
 abc=int(input())
-print(math.sin(abc))
+print (round(math.sin(math.radians(abc)),1))
